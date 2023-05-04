@@ -5,21 +5,25 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
+/* Olena */
 @import url('./header.css');
+/* Olena */
+@import url('./burger-menu.css');
+/* Andrii */
+@import url('./hero.css');
+/* Valentine */
+@import url('./about-us.css');
+/* Ludmila */
+@import url('./catalog.css');
+/* Valentine */
+@import url('./new-watches.css');
+/* Oleg */
+@import url('./sale.css');
+/* Anna */
+@import url('./footer.css');
+/* Yura */
+@import url('./modal-window.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  font-family: 'Epilogue', sans-serif;  
 }
