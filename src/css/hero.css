@@ -1,3 +1,50 @@
 .hero {
-    background-color: white;
+    background-color: var(--color-black);
+}
+
+.container {}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    color: var(--color-white);
+    margin-bottom: 60px;
+    margin-left: 0;    
+    width: 335px;
+}
+
+.hero-description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--color-white);
+    margin: 0 0 0 auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 248px;    
+}
+
+.swiper {
+    width: 266px;
+    height: 200px;
+    margin-left: 0;
+}
+
+.swiper-wrapper {}
+
+.swiper-slide {}
+
+.swiper-pagination {}
+
+.swiper-button-prev {}
+
+.swiper-button-next {}
+
+.swiper-scrollbar {}
+
+.hero-img {
+    margin: 0 auto;
 }
