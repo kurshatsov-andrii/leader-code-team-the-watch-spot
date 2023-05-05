@@ -6,44 +6,134 @@
       <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide">
-          <img
-            src="./img/slider-watch-mob-1.jpg"
-            alt="Watch 1"
-            width="266"
-            height="200"
-          />
+          <picture>
+            <source
+              srcset="
+                ./img/slider-watch-1.jpg    1x,
+                ./img/slider-watch-1-2x.jpg 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./img/slider-watch-1.jpg    1x,
+                ./img/slider-watch-1-2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/slider-watch-mob-1.jpg    1x,
+                ./img/slider-watch-mob-1-2x.jpg 2x
+              "
+              media="(max-width: 375px)"
+            />
+            <img src="./img/slider-watch-mob-1.jpg" alt="Watch 1" />
+          </picture>
         </div>
         <div class="swiper-slide">
-          <img
-            src="./img/slider-watch-mob-2.jpg"
-            alt="Watch 2"
-            width="266"
-            height="200"
-          />
+          <picture>
+            <source
+              srcset="
+                ./img/slider-watch-2.jpg    1x,
+                ./img/slider-watch-2-2x.jpg 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./img/slider-watch-2.jpg    1x,
+                ./img/slider-watch-2-2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/slider-watch-mob-2.jpg    1x,
+                ./img/slider-watch-mob-2-2x.jpg 2x
+              "
+              media="(max-width: 375px)"
+            />
+            <img src="./img/slider-watch-mob-2.jpg" alt="Watch 2" />
+          </picture>
         </div>
         <div class="swiper-slide">
-          <img
-            src="./img/slider-watch-mob-3.jpg"
-            alt="Watch 3"
-            width="266"
-            height="200"
-          />
+          <picture>
+            <source
+              srcset="
+                ./img/slider-watch-3.jpg    1x,
+                ./img/slider-watch-3-2x.jpg 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./img/slider-watch-3.jpg    1x,
+                ./img/slider-watch-3-2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/slider-watch-mob-3.jpg    1x,
+                ./img/slider-watch-mob-3-2x.jpg 2x
+              "
+              media="(max-width: 375px)"
+            />
+            <img src="./img/slider-watch-mob-3.jpg" alt="Watch 3" />
+          </picture>
         </div>
         <div class="swiper-slide">
-          <img
-            src="./img/slider-watch-mob-4.jpg"
-            alt="Watch 4"
-            width="266"
-            height="200"
-          />
+          <picture>
+            <source
+              srcset="
+                ./img/slider-watch-4.jpg    1x,
+                ./img/slider-watch-4-2x.jpg 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./img/slider-watch-4.jpg    1x,
+                ./img/slider-watch-4-2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/slider-watch-mob-4.jpg    1x,
+                ./img/slider-watch-mob-4-2x.jpg 2x
+              "
+              media="(max-width: 375px)"
+            />
+            <img src="./img/slider-watch-mob-4.jpg" alt="Watch 4" />
+          </picture>
         </div>
         <div class="swiper-slide">
-          <img
-            src="./img/slider-watch-5.jpg"
-            alt="Watch 5"
-            width="266"
-            height="200"
-          />
+          <picture>
+            <source
+              srcset="
+                ./img/slider-watch-5.jpg    1x,
+                ./img/slider-watch-5-2x.jpg 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./img/slider-watch-5.jpg    1x,
+                ./img/slider-watch-5-2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/slider-watch-mob-5.jpg    1x,
+                ./img/slider-watch-mob-5-2x.jpg 2x
+              "
+              media="(max-width: 375px)"
+            />
+            <img src="./img/slider-watch-mob-5.jpg" alt="Watch 5" />
+          </picture>
         </div>
       </div>
       <!-- If we need pagination -->
@@ -54,7 +144,7 @@
       <div class="swiper-button-next"></div> -->
 
       <!-- If we need scrollbar -->
-      <div class="swiper-scrollbar"></div>
+      <!-- <div class="swiper-scrollbar"></div> -->
     </div>
     <p class="hero-description">
       Our watches are not just timepieces, but also an expression of your
@@ -75,12 +165,7 @@
         srcset="./img/hero-watch-mob.jpg 1x, ./img/hero-watch-mob-2x.jpg 2x"
         media="(max-width: 375px)"
       />
-      <img
-        class="hero-img"
-        src="./img/hero-watch-mob.jpg"
-        alt="Watch"
-        width="335"
-      />
+      <img class="hero-img" src="./img/hero-watch-mob.jpg" alt="Watch" />
     </picture>
   </div>
 </section>
