@@ -53,7 +53,44 @@
     .swiper-buttons{        
         display: flex;
         gap: 12px;  
-        margin-top: 20px;      
+        margin-top: 20px;
+        align-items: flex-end;
+    }
+
+    .carousel-number-of-watches{
+        display: flex;        
+        color: var(--color-white);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;                
+        position: relative;
+        left: 32%;
+    }
+
+    .swiper1-button-prev {
+        width: 24px;
+        height: 24px;
+    }
+
+    .swiper1-button-next {
+        width: 24px;
+        height: 24px;
+    }
+
+    .dash {
+        margin-left: 6px;
+        margin-right: 46px;
+    }
+
+
+    .dash::after{
+        content: '';
+        border-bottom: 1px solid #FFFFFF;
+        display: block;
+        width: 40px;
+        position: absolute;
+        top: 50%;
     }
 
 /*-------CONTAINER < 375px-----------------*/
@@ -100,6 +137,11 @@
         align-items: center;
         flex-wrap: wrap;
 }
+
+.carousel-number-of-watches {
+    left: 65%;
+}
+
 }
 
 /*-------CONTAINER 1280px-----------------*/
