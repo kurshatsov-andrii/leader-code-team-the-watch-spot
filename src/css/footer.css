@@ -124,6 +124,16 @@
   color: #c6cdd1;
 }
 
+.footer-priv-policy:hover,
+.footer-priv-policy:focus {
+  text-decoration: underline;
+}
+
+.footer-terms-serv:hover,
+.footer-terms-serv:focus {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
   .footer {
     padding-top: 80px;
