@@ -1,3 +1,5 @@
-import "./js/slider.js";
-import "./js/modal.js";
-import "./js/menu.js";
+import "./js/menu";
+import "./js/slider";
+import "./js/modal";
+
+
