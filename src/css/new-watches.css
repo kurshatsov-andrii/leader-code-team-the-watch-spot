@@ -22,16 +22,7 @@
   gap: 20px;
 }
 
-@media screen and (min-width: 375px) {
-  .new-watches .container {
-    width: 365px;
-  }
-}
-
 @media screen and (min-width: 768px) {
-  .new-watches .container {
-    width: 734px;
-  }
   .new-watches-subtitle {
     font-weight: 600;
     font-size: 40px;
@@ -41,9 +32,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .new-watches .container {
-    width: 1206px;
-  }
   .new-watches-subtitle {
     margin-bottom: 80px;
   }
