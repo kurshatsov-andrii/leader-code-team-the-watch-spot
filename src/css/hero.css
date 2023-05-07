@@ -36,25 +36,25 @@
 } 
 
     .swiper-button-icon{
-        stroke: rgba(255, 255, 255, 0.5);
-        border-radius: 8px;
-        cursor: pointer;
-        border: 1px solid rgba(255, 255, 255, 0.5);
-        transition: color var(--transform-hover-focus);
-    }
-
-    .swiper-button-icon:hover,
-    .swiper-button-icon:focus
-    {
-        stroke: var(--color-white); 
-        border: 1px solid var(--color-white);
+        stroke: rgba(255, 255, 255, 0.5);        
+        border: 0px solid rgba(255, 255, 255, 0.5);         
+        width: 18px;
+        height: 18px;
+        margin: 7px;        
         }
 
+    /* .swiper-button-icon:hover,
+    .swiper-button-icon:focus
+    {
+        stroke: var(--color-white);
+    } */
+    
     .swiper-buttons{        
         display: flex;
         gap: 12px;  
         margin-top: 20px;
-        align-items: flex-end;
+        align-items: flex-end; 
+        transition: border var(--transform-hover-focus);
     }
 
     .carousel-number-of-watches{
@@ -65,17 +65,45 @@
         line-height: 1.29;
         letter-spacing: -0.02em;                
         position: relative;
-        left: 32%;
+        left: 27%;
     }
 
     .swiper1-button-prev {
-        width: 24px;
-        height: 24px;
+        width: 32px;
+        height: 32px;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        cursor: pointer;
     }
 
     .swiper1-button-next {
-        width: 24px;
-        height: 24px;
+        width: 32px;
+        height: 32px;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+    }
+
+    .swiper1-button-prev:hover,
+    .swiper1-button-prev:focus  {
+        border: 1px solid var(--color-white);        
+    }
+
+    .swiper1-button-prev:hover>.swiper-button-icon, 
+    .swiper1-button-prev:focus>.swiper-button-icon
+      {
+        stroke: var(--color-white);        
+    }
+
+    .swiper1-button-next:hover,
+    .swiper1-button-next:focus {
+        border: 1px solid var(--color-white);
+    }
+    
+    .swiper1-button-next:hover>.swiper-button-icon,
+    .swiper1-button-next:focus>.swiper-button-icon  
+    {
+        stroke: var(--color-white);        
     }
 
     .dash {
@@ -139,7 +167,29 @@
 }
 
 .carousel-number-of-watches {
-    left: 65%;
+    left: 57%;
+}
+
+.swiper-button-icon {
+    width: 24px;
+    height: 24px;
+    margin: 8px;
+}
+
+.swiper1-button-prev {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.swiper1-button-next {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
 }
 
 }
