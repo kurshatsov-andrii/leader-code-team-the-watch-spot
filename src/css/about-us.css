@@ -1,3 +1,82 @@
 .about-us {
-    background-color: aqua;
+  margin-top: 40px;
+}
+
+.about-us-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #1e2827;
+  margin-bottom: 40px;
+}
+
+.about-us-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #141414;
+}
+
+.about-us-text.first {
+  margin-bottom: 20px;
+}
+
+.about-us-text.second {
+  margin-bottom: 40px;
+}
+
+.about-us-gif {
+  width: 100%;
+}
+
+@media screen and (min-width: 375px) {
+  .about-us {
+    width: 365px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-us {
+    display: flex;
+    flex-wrap: wrap;
+    width: 734px;
+    margin-top: 64px;
+    row-gap: 40px;
+  }
+  .about-us-title {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-right: 40px;
+  }
+
+  .about-us-text.first {
+    width: 220px;
+    margin-right: 20px;
+  }
+  .about-us-text.second {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us {
+    width: 1206px;
+  }
+  .about-us-gif {
+    width: 892px;
+    margin-left: auto;
+  }
+  .about-us-title {
+    margin-right: 110px;
+  }
+
+  .about-us-text.first {
+    width: 439px;
+    margin-right: 40px;
+  }
+  .about-us-text.second {
+    width: 380px;
+  }
 }
