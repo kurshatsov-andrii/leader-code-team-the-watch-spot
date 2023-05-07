@@ -1,3 +1,97 @@
 .burger-menu {
-    background-color: tomato;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  background-color: var(--color-dark-green);
+  transition: opacity var(--transform-hover-focus),
+    visibility var(--transform-hover-focus);
+}
+
+.burger-menu-container {
+  position: relative;
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+.burger-menu.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.burger-menu-logo {
+  display: inline-block;
+}
+
+.burger-menu-logo-text {
+  vertical-align: 25%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--color-white);
+}
+
+.burger-menu-logo-text:hover,
+.burger-menu-logo-text:focus {
+  text-decoration: underline;
+}
+
+.burger-menu-close-button {
+  position: absolute;
+  top: 29px;
+  right: 15px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  line-height: 0;
+  color: var(--color-white);
+  transition: background color var(--transform-hover-focus),
+    border-radius var(--transform-hover-focus);
+}
+
+.burger-menu-close-button:hover,
+.burger-menu-close-button:focus {
+  background-color: var(--color-white);
+  border-radius: 50%;
+}
+
+.burger-menu-close-btn-icon {
+  stroke: currentColor;
+}
+
+.burger-menu-close-button:hover .burger-menu-close-btn-icon {
+  color: var(--color-dark-green);
+}
+
+.burger-menu-close-button:focus .burger-menu-close-btn-icon {
+  color: var(--color-dark-green);
+}
+
+.burger-menu-list {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.burger-menu-item:not(:last-child) {
+  margin-bottom: 14px;
+}
+.burger-menu-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.burger-menu-link:hover,
+.burger-menu-link:focus {
+  text-decoration: underline;
 }
