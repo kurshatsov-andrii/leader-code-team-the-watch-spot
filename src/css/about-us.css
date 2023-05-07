@@ -37,14 +37,17 @@
     font-size: 40px;
     line-height: 1.1;
     margin-right: 40px;
+    margin-bottom: 0;
   }
 
   .about-us-text.first {
     width: 220px;
     margin-right: 20px;
+    margin-bottom: 0;
   }
   .about-us-text.second {
     width: 250px;
+    margin-bottom: 0;
   }
 }
 
