@@ -90,9 +90,16 @@
   width: 100%;
   top: -8px;
 
-  border-top: 1px solid black;
+  border-top: 1px solid #141414;
 }
 .sale-title-information::after {
+  content: '';
+  position: relative;
+  display: block;
+  border: 1px solid #141414;
+  width: 16px;
+  float: right;
+  top: 10px;
 }
 .sale-text-information {
   letter-spacing: -0.01em;
