@@ -1,7 +1,3 @@
-.about-us {
-  margin-top: 40px;
-}
-
 .about-us-title {
   font-weight: 600;
   font-size: 32px;
@@ -32,17 +28,18 @@
 }
 
 @media screen and (min-width: 375px) {
-  .about-us {
+  .about-us .container {
     width: 365px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .about-us {
+  .about-us .container {
+    width: 734px;
+  }
+  .about-us-wrapper {
     display: flex;
     flex-wrap: wrap;
-    width: 734px;
-    margin-top: 64px;
     row-gap: 40px;
   }
   .about-us-title {
@@ -61,7 +58,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .about-us {
+  .about-us .container {
     width: 1206px;
   }
   .about-us-gif {

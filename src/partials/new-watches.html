@@ -1,16 +1,60 @@
-<section class="new-watches container">
-  <h2 class="new-watches-title">New watches</h2>
-  <h3 class="new-watches-subtitle">
-    Green And Bronze—The Match Made In Heaven
-  </h3>
-  <img
-    class="new-watches-img"
-    src="./img/new-watches-1.jpg"
-    alt="new-watches-one"
-  />
-  <img
-    class="new-watches-img"
-    src="./img/new-watches-2.jpg"
-    alt="new-watches-second"
-  />
+<section class="new-watches section">
+  <div class="container">
+    <h2 class="new-watches-title">New watches</h2>
+    <h3 class="new-watches-subtitle">
+      Green And Bronze—The Match Made In Heaven
+    </h3>
+    <div class="new-watches-imgs">
+      <picture class="new-watches-img">
+        <source
+          media="(min-width: 1280px)"
+          srcset="./img/new-watches-1.jpg 1x, ./img/new-watches-1-2x.jpg 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/new-watches-1-tab.jpg    1x,
+            ./img/new-watches-1-tab-2x.jpg 2x
+          "
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/new-watches-1-mob.jpg    1x,
+            ./img/new-watches-1-mob-2x.jpg 2x
+          "
+        />
+        <img
+          class="new-watches-mob-img"
+          src="./img/new-watches-1.jpg"
+          alt="new-watches-first"
+        />
+      </picture>
+      <picture class="new-watches-img">
+        <source
+          media="(min-width: 1280px)"
+          srcset="./img/new-watches-2.jpg 1x, ./img/new-watches-2-2x.jpg 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/new-watches-2-tab.jpg    1x,
+            ./img/new-watches-2-tab-2x.jpg 2x
+          "
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/new-watches-2-mob.jpg    1x,
+            ./img/new-watches-2-mob-2x.jpg 2x
+          "
+        />
+        <img
+          class="new-watches-mob-img"
+          src="./img/new-watches-2.jpg"
+          alt="new-watches-second"
+        />
+      </picture>
+    </div>
+  </div>
 </section>
