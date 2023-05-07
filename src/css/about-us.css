@@ -27,16 +27,7 @@
   width: 100%;
 }
 
-@media screen and (min-width: 375px) {
-  .about-us .container {
-    width: 365px;
-  }
-}
-
 @media screen and (min-width: 768px) {
-  .about-us .container {
-    width: 734px;
-  }
   .about-us-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -58,9 +49,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .about-us .container {
-    width: 1206px;
-  }
   .about-us-gif {
     width: 892px;
     margin-left: auto;
