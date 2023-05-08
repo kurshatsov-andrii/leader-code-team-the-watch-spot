@@ -22,7 +22,15 @@
   gap: 20px;
 }
 
+.new-watches-img {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
+  .new-watches-img {
+    width: 342px;
+  }
+
   .new-watches-subtitle {
     font-weight: 600;
     font-size: 40px;
@@ -35,7 +43,12 @@
   .new-watches-subtitle {
     margin-bottom: 80px;
   }
+
   .new-watches-imgs {
     gap: 24px;
+  }
+
+  .new-watches-img {
+    width: 576px;
   }
 }
