@@ -1,3 +1,169 @@
-.catalog {
-    background-color: green;
+@media screen and (max-width: 374px) {
+    .catalog {
+        padding-top: 80px;
+        padding-bottom: 162px;
+        }
+
+        .catalog-title {
+        font-weight: 600;
+        font-size: 32px;
+        letter-spacing: -0.02em;
+        color: #1E2827;
+        margin-bottom: 40px;
+        }
+        
+        
+        .catalog-list {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            justify-content: center;
+            flex-wrap: wrap; 
+        }
+        
+        .catalog-item {
+            width: 100%;
+        }
+
+        .catalog-watches {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .catalog-title-two {
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: -0.02em;
+        color: #141414;
+        margin-top: 14px;
+        }
+        
+        .catalog-title-two-text {
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: -0.02em;
+        color: rgba(20, 20, 20, 0.5);
+        margin-top: 4px;
+        }
+        
 }
+
+
+
+@media screen and (min-width: 375px){
+    .catalog {
+        padding-top: 80px;
+        padding-bottom: 162px;
+    }
+    
+        .catalog-title {
+        font-weight: 600;
+        font-size: 32px;
+        letter-spacing: -0.02em;
+        color: #1E2827;
+        margin-bottom: 40px;
+        }
+        
+        .catalog-list {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            justify-content: center;
+            flex-wrap: wrap; 
+        }
+        
+        .catalog-item {
+            width: 100%;
+        }
+
+        .catalog-watches {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .catalog-title-two {
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: -0.02em;
+        color: #141414;
+        margin-top: 14px;
+        }
+        
+        .catalog-title-two-text {
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: -0.02em;
+        color: rgba(20, 20, 20, 0.5);
+        margin-top: 4px;
+        }
+}
+
+@media screen and (min-width: 768px) {
+    .catalog {
+        padding-top: 128px;
+        padding-bottom: 128px;
+        }
+        
+    .catalog-list {
+    gap: 40px 32px;
+    justify-content: left;
+    }
+
+    .catalog-item {
+    width: calc((100% - 32px) / 2); 
+    }
+
+.catalog-modal-btn {
+    background-color:#1E2827;
+    display:block;
+    display: flex;
+    margin-top: 40px; 
+    border-radius: 8px;
+    min-width: 122px;
+    height: 50px;
+    border-color: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 11.7;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 18px 35px 18px;
+    float: right;
+}
+
+.catalog-modal-btn:focus {
+    border: 1px solid #FFFFFF;
+}
+}
+
+
+
+@media screen and (min-width: 1280px) {
+.catalog-list {
+gap: 64px 24px;
+justify-content: center;
+}
+
+.catalog-item {
+width: calc((100% - 72px) / 4); 
+}
+
+.catalog-modal-btn:hover,
+.catalog-modal-btn:focus {
+    border: 1px solid #FFFFFF;
+}
+}
+
+@media screen and (max-width: 1157px) {
+    .catalog-dekstop {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .catalog-modal-btn {
+        display: none;
+    }
+} 

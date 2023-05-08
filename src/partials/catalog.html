@@ -1,121 +1,464 @@
-<section class="catalog">
-<div class="container-catalog container">
+<section class="catalog" id="catalog">
+<div class="catalog-container container">
     <h2 class="catalog-title">Catalog</h2>
     <ul class="catalog-list list">
-        <li class="catalog-link link">
+        <li class="catalog-item">
             <div class="catalog-watches">
-                <img
-                src="../img/catalog-watch-1.jpg"
-                alt="watch is brown and black"
-                srcset="../img/catalog-watch-1-2x.jpg 2x"
-                width="275"
-                height="274"
-                >
-                <h3 class="catalog-title-two">Tube Watch S42 Date Steel With Black Case</h3>
-                <p class="catalog-title-two-text">€395</p>
-                <img
-                src="../img/catalog-watch-2.jpg"
-                alt="watch is grey"
-                srcset="../img/catalog-watch-2-2x.jpg 2x"
-                width="275"
-                height="274"
-                >
+                <picture>
+                    <source
+                        srcset="
+                        ./img/catalog-watch-1.jpg,
+                        ./images/catalog-watch-1-2x.jpg 2x
+                        "
+                        media="(min-width: 1158px)"
+                    />
+                    <source
+                    srcset="
+                        ./img/catalog-watch-1.jpg 1x,
+                        ./img/catalog-watch-1-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                    />
+                    <source
+                    srcset="
+                        ./img/catalog-watch-1.jpg 1x,
+                        ./images/catalog-watch-1-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                    />
+                    <img
+                    class="catalog-img"
+                    src="../images/catalog-watch-1.jpg"
+                    alt="watch is brown and black"
+                    width="275"
+                    height="274"
+                    />
+                </picture>
+            </div>
+                <div class="catalog-wrap">
+                    <h3 class="catalog-title-two">Tube Watch S42 Date Steel With Black Case</h3>
+                    <p class="catalog-title-two-text">€395</p>
+                </div>
+        </li>
+        <li class="catalog-item">
+            <div class="catalog-watches">
+                <picture>
+                    <source
+                    srcset="
+                        ./img/catalog-watch-2.jpg 1x,
+                        ./img/catalog-watch-2-2x.jpg 2x
+                        "
+                        media="(min-width: 1158px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-2.jpg 1x,
+                    ./img/catalog-watch-2-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-2.jpg 1x,
+                    ./img/catalog-watch-2-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                    />
+                    <img
+                    class="catalog-img"
+                    src="./img/catalog-watch-2.jpg"
+                    alt="watch is grey"
+                    width="275"
+                    height="274"
+                    />
+                </picture>
+            </div>
+                <div class="catalog-wrap">
                 <h3 class="catalog-title-two">Avondale Watch Police For Men</h3>
                 <p class="catalog-title-two-text">€800</p>
-                <img
-                src="../img/catalog-watch-3.jpg"
-                alt="watch is grey and gold"
-                srcset="../img/catalog-watch-3-2x.jpg 2x"
-                width="275"
-                height="274"
-                >
-                <h3 class="catalog-title-two">Diver  300M Co‑Axial Master Chronometer Chronograph</h3>
-                <p class="catalog-title-two-text">€600</p>
-                <img
-                src="../img/catalog-watch-4.jpg"
-                alt="watch is grey and green"
-                srcset="../img/catalog-watch-4-2x.jpg 2x"
-                width="275"
-                height="274"
-                >
-                <h3 class="catalog-title-two">Diver 300M Co-Axial Master Chronometer</h3>
+                </div>
+            </li>
+        <li class="catalog-item">
+            <div class="catalog-watches">
+                <picture>
+                    <source
+                    srcset="
+                    ./img/catalog-watch-3.jpg 1x,
+                    ./img/catalog-watch-3-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-3.jpg 1x,
+                    ./img/catalog-watch-3-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-3.jpg 1x,
+                    ./img/catalog-watch-3-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                    />
+                    <img
+                    class="catalog-img"
+                    src="./img/catalog-watch-3.jpg"
+                    alt="watch is grey and gold"
+                    width="275"
+                    height="274"
+                    />
+                </picture>
+            </div>
+                <div class="catalog-wrap">
+                    <h3 class="catalog-title-two">Diver  300M Co‑Axial Master Chronometer Chronograph</h3>
+                    <p class="catalog-title-two-text">€600</p>
+                </div>
+        </li>
+        <li class="catalog-item">
+            <div class="catalog-watches">
+                <picture>
+                    <source
+                    srcset="
+                    ./img/catalog-watch-4.jpg 1x,
+                    ./img/catalog-watch-4-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-4.jpg 1x,
+                    ./img/catalog-watch-4-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-4.jpg 1x,
+                    ./img/catalog-watch-4-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                    />
+                    <img
+                    class="catalog-img"
+                    src="./img/catalog-watch-4.jpg"
+                    alt="watch is grey and green"
+                    width="275"
+                    height="274"
+                    />
+                </picture>
+            </div>
+                <div class="catalog-wrap">
+                    <h3 class="catalog-title-two">Diver 300M Co-Axial Master Chronometer</h3>
                 <p class="catalog-title-two-text">€1400</p>
-                <img
-                src="../img/catalog-watch-5.jpg"
-                alt="watch is black and grey"
-                srcset="../img/catalog-watch-5-2x.jpg 2x"
-                width="275"
-                height="274"
-                >
-                <h3 class="catalog-title-two">Taman Watch By Police For Men</h3>
-                <p class="catalog-title-two-text">€500</p>
-                <img
-                src="../img/catalog-watch-6.jpg"
-                alt="watch is grey and blue"
-                srcset="../img/catalog-watch-6-2x.jpg 2x"
-                width="275"
-                height="274"
-                >
-                <h3 class="catalog-title-two">Malawi Watch Police For Men</h3>
+                </div>
+        </li>
+        <li class="catalog-item">
+            <div class="catalog-watches">
+                <picture>
+                    <source
+                    srcset="
+                    ./img/catalog-watch-5.jpg 1x,
+                    ./img/catalog-watch-5-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-5.jpg 1x,
+                    ./img/catalog-watch-5-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-5.jpg 1x,
+                    ./img/catalog-watch-5-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                    />
+                    <img
+                    class="catalog-img"
+                    src="./img/catalog-watch-5.jpg"
+                    alt="watch is black and grey"
+                    width="275"
+                    height="274"
+                    />
+                </picture>
+            </div>
+                <div class="catalog-wrap">
+                    <h3 class="catalog-title-two">Taman Watch By Police For Men</h3>
+                    <p class="catalog-title-two-text">€500</p>
+                </div>
+        </li>
+        <li class="catalog-item">
+            <div class="catalog-watches">
+                <picture>
+                    <source
+                    srcset="
+                    ./img/catalog-watch-6.jpg 1x,
+                    ./img/catalog-watch-6-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-6.jpg 1x,
+                    ./img/catalog-watch-6-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-6.jpg 1x,
+                    ./img/catalog-watch-6-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                    />
+                    <img
+                    class="catalog-img"
+                    src="./img/catalog-watch-6.jpg"
+                    alt="watch is grey and blue"
+                    width="275"
+                    height="274"
+                    />
+                </picture>
+            </div>
+                <div class="catalog-wrap">
+                    <h3 class="catalog-title-two">Malawi Watch Police For Men</h3>
                 <p class="catalog-title-two-text">€555</p>
-                <img
-                src="../img/catalog-watch-7.jpg"
-                alt="watch is grey and white numbers"
-                srcset="../img/catalog-watch-7-2x.jpg 2x"
-                width="275"
-                height="274"
-                >
-                <h3 class="catalog-title-two">Diver 300M Co-Axial Master Chronometer</h3>
-                <p class="catalog-title-two-text">€1200</p>
-                <img
-                src="../img/catalog-watch-8.jpg"
-                alt="watch is dark"
-                srcset="../img/catalog-watch-8-2x.jpg 2x"
-                width="275"
-                height="274">
-                <h3 class="catalog-title-two">Greenlane Watch By Police For Men</h3>
-                <p class="catalog-title-two-text">€1000</p>
+                </div>
+        </li>
+        <li class="catalog-item">
+            <div class="catalog-watches">
+                <picture>
+                    <source
+                    srcset="
+                    ./img/catalog-watch-7.jpg 1x,
+                    ./img/catalog-watch-7-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-7.jpg 1x,
+                    ./img/catalog-watch-7-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-7.jpg 1x,
+                    ./img/catalog-watch-7-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                    />
+                    <img
+                    class="catalog-img"
+                    src="./img/catalog-watch-7.jpg"
+                    alt="watch is grey and white numbers"
+                    width="275"
+                    height="274"
+                    />
+                </picture>
             </div>
-            <div class="catalog-watches-dekstop">
-            <img
-            src="../img/catalog-watch-9.jpg"
-            alt="watch is grey and black dial"
-            srcset="../img/catalog-watch-9-2x.jpg 2x"
-            width="275"
-            height="274"
-            >
-            <h3 class="catalog-title-two">Squardrc 5402 Chrono</h3>
-            <p class="catalog-title-two-text">€359</p>
-            <img
-            src="../img/catalog-watch-10.jpg"
-            alt="watch is grey, gold and white numbers"
-            srcset="../img/catalog-watch-10-2x.jpg 2x"
-            width="275"
-            height="274"
-            >
-            <h3 class="catalog-title-two">Diver  300M Co‑Axial Master Chronometer Chronograph</h3>
-            <p class="catalog-title-two-text">€400</p>
-            <img
-            src="../img/catalog-watch-11.jpg"
-            alt="watch is grey, blue and white numbers"
-            srcset="../img/catalog-watch-11-2x.jpg 2x"
-            width="275"
-            height="274"
-            >
-            <h3 class="catalog-title-two">Citizen</h3>
-            <p class="catalog-title-two-text">€519</p>
-            <img
-            src="../img/catalog-watch-12.jpg"
-            alt="watch black and white numbers"
-            srcset="../img/catalog-watch-12-2x.jpg 2x"
-            width="275"
-            height="274"
-            >
-            <h3 class="catalog-title-two">Armani Exchange</h3>
-            <p class="catalog-title-two-text">€400</p>
+                <div class="catalog-wrap">
+                    <h3 class="catalog-title-two">Diver 300M Co-Axial Master Chronometer</h3>
+                    <p class="catalog-title-two-text">€1200</p>
+                </div>
+        </li>
+        <li class="catalog-item">
+            <div class="catalog-watches">
+                <picture>
+                    <source
+                    srcset="
+                    ./img/catalog-watch-8.jpg 1x,
+                    ./img/catalog-watch-8-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-8.jpg 1x,
+                    ./img/catalog-watch-8-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-8.jpg 1x,
+                    ./img/catalog-watch-8-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                    />
+                    <img
+                    class="catalog-img"
+                    src="./img/catalog-watch-8.jpg"
+                    alt="watch is dark"
+                    width="275"
+                    height="274"
+                    />
+                </picture>
             </div>
-            <button type="button" class="catalog-modal-btn" data-modal-open>Buy now</button>
+                <div class="catalog-wrap">
+                    <h3 class="catalog-title-two">Greenlane Watch By Police For Men</h3>
+                    <p class="catalog-title-two-text">€1000</p>
+                </div>
+        </li>
+        <li class="catalog-item catalog-dekstop">
+            <div class="catalog-watches">
+                <picture>
+                    <source
+                    srcset="
+                    ./img/catalog-watch-9.jpg 1x,
+                    ./img/catalog-watch-9-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-9.jpg 1x,
+                    ./img/catalog-watch-9-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-9.jpg 1x,
+                    ./img/catalog-watch-9-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                    />
+                    <img
+                    class="catalog-img"
+                    src="./img/catalog-watch-9.jpg"
+                    alt="watch is grey and black dial"
+                    width="275"
+                    height="274"
+                    />
+                </picture>
+            </div>
+                <div class="catalog-wrap">
+                    <h3 class="catalog-title-two">Squardrc 5402 Chrono</h3>
+                    <p class="catalog-title-two-text">€359</p>
+                </div>
+        </li>   
+        <li class="catalog-item catalog-dekstop">
+            <div class="catalog-watches">
+                <picture>
+                    <source
+                    srcset="
+                    ./img/catalog-watch-10.jpg 1x,
+                    ./img/catalog-watch-10-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-10.jpg 1x,
+                    ./img/catalog-watch-10-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-10.jpg 1x,
+                    ./img/catalog-watch-10-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                    />
+                    <img
+                    class="catalog-img"
+                    src="./img/catalog-watch-10.jpg"
+                    alt="watch is grey, gold and white numbers"
+                    width="275"
+                    height="274"
+                    />
+                </picture>
+            </div>
+                <div class="catalog-wrap">
+                    <h3 class="catalog-title-two">Diver  300M Co‑Axial Master Chronometer Chronograph</h3>
+                    <p class="catalog-title-two-text">€400</p>
+                </div>
+        </li>
+        <li class="catalog-item catalog-dekstop">
+            <div class="catalog-watches">
+                <picture>
+                    <source
+                    srcset="
+                    ./img/catalog-watch-11.jpg 1x,
+                    ./img/catalog-watch-11-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-11.jpg 1x,
+                    ./img/catalog-watch-11-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-11.jpg 1x,
+                    ./img/catalog-watch-11-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                    />
+                    <img
+                    class="catalog-img"
+                    src="./img/catalog-watch-11.jpg"
+                    alt="watch is grey, blue and white numbers"
+                    width="275"
+                    height="274"
+                    />
+                </picture>
+            </div>
+                <div class="catalog-wrap">
+                    <h3 class="catalog-title-two">Citizen</h3>
+                    <p class="catalog-title-two-text">€519</p>
+                </div>
+        </li>
+        <li class="catalog-item catalog-dekstop">
+            <div class="catalog-watches">
+                <picture>
+                    <source
+                    srcset="
+                    ./img/catalog-watch-12.jpg 1x,
+                    ./img/catalog-watch-12-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-12.jpg 1x,
+                    ./img/catalog-watch-12-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                    />
+                    <source
+                    srcset="
+                    ./img/catalog-watch-12.jpg 1x,
+                    ./img/catalog-watch-12-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                    />
+                    <img
+                    class="catalog-img"
+                    src="./img/catalog-watch-12.jpg"
+                    alt="watch black and white numbers"
+                    width="275"
+                    height="274"
+                    />
+                </picture>
+            </div>
+                <div class="catalog-wrap">
+                    <h3 class="catalog-title-two">Armani Exchange</h3>
+                    <p class="catalog-title-two-text">€400</p>
+                </div>
         </li>
     </ul>
+    <button type="button" class="catalog-modal-btn" data-modal-open>BUY NOW</button>
 </div>
 </section>
