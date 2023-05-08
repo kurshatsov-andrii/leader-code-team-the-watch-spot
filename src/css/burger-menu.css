@@ -15,8 +15,8 @@
 
 .burger-menu-container {
   position: relative;
-  padding-top: 34px;
-  padding-bottom: 34px;
+  padding-top: 29px;
+  padding-bottom: 29px;
 }
 
 .burger-menu.is-hidden {
@@ -26,11 +26,12 @@
 }
 
 .burger-menu-logo {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 0 4px;
 }
 
 .burger-menu-logo-text {
-  vertical-align: 25%;
   font-weight: 400;
   font-size: 12px;
   line-height: 1;
