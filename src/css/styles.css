@@ -39,7 +39,6 @@ body {
   background-color: var(--color-white);
 }
 
-
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -59,7 +58,7 @@ body {
 /*-------CONTAINER 375px-----------------*/
 @media screen and (min-width: 375px) {
   .container {
-    max-width: 375px;
+    max-width: 365px;
   }
 
   .section {
@@ -72,7 +71,7 @@ body {
 /*-------CONTAINER 768px-----------------*/
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 734px;
   }
 
   .section {
