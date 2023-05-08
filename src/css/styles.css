@@ -46,10 +46,6 @@ body {
   margin-right: auto;
 }
 
-.catalog {
-  font-family: 'Epilogue';
-}
-
 /*-------CONTAINER < 375px-----------------*/
 @media screen and (max-width: 374px) {
   .section {
