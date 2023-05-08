@@ -187,7 +187,12 @@ color: rgba(20, 20, 20, 0.4);
     }
     .modal-window-wrap{
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
+    }
+
+    .modal-window-picture {
+
+        margin-right: 20px;
     }
 
     .contacts-form {
@@ -208,6 +213,11 @@ color: rgba(20, 20, 20, 0.4);
         width: 904px;
         height: 694px;
         
+    }
+
+    .modal-window-picture {
+
+        margin-right: 40px;
     }
 
     .contacts-form {
