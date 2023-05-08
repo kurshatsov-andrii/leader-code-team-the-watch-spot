@@ -45,6 +45,28 @@
         color: rgba(20, 20, 20, 0.5);
         margin-top: 4px;
         }
+
+        .catalog-modal-btn {
+    background-color:#1E2827;
+    display:block;
+    display: flex;
+    margin-top: 40px; 
+    border-radius: 8px;
+    min-width: 122px;
+    height: 50px;
+    border-color: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 11.7;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 18px 35px 18px;
+    float: right;
+}
+
+.catalog-modal-btn:focus {
+    border: 1px solid #FFFFFF;
+}
         
 }
 
@@ -74,6 +96,16 @@
         
         .catalog-item {
             width: 100%;
+
+        }
+        
+        .catalog-link {
+            display: block;
+        }
+        
+        .catalog-link:hover .catalog-cover-text,
+        .catalog-link:focus .catalog-cover-text {
+        transform: translate(0);
         }
 
         .catalog-watches {
@@ -81,6 +113,41 @@
             overflow: hidden;
         }
         
+        .catalog-cover-text {
+            position: absolute;
+            top: 0;
+            height: 100%;
+            background: #1E2827;
+            border-radius: 8px;
+            padding: 46px 59px 41px 40px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            transform: translateY(100%);
+        }
+        
+        .catalog-cover-text-title {
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: -0.02em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        
+        .catalog-cover-text-wrap {
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: -0.01em;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .catalog-cover-text-wrap-second {
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: -0.01em;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
         .catalog-title-two {
         font-weight: 400;
         font-size: 14px;
@@ -96,24 +163,8 @@
         color: rgba(20, 20, 20, 0.5);
         margin-top: 4px;
         }
-}
 
-@media screen and (min-width: 768px) {
-    .catalog {
-        padding-top: 128px;
-        padding-bottom: 128px;
-        }
-        
-    .catalog-list {
-    gap: 40px 32px;
-    justify-content: left;
-    }
-
-    .catalog-item {
-    width: calc((100% - 32px) / 2); 
-    }
-
-.catalog-modal-btn {
+        .catalog-modal-btn {
     background-color:#1E2827;
     display:block;
     display: flex;
@@ -134,6 +185,23 @@
 .catalog-modal-btn:focus {
     border: 1px solid #FFFFFF;
 }
+}
+
+@media screen and (min-width: 768px) {
+    .catalog {
+        padding-top: 128px;
+        padding-bottom: 128px;
+        }
+        
+    .catalog-list {
+    gap: 40px 32px;
+    justify-content: left;
+    }
+
+    .catalog-item {
+    width: calc((100% - 32px) / 2); 
+    }
+
 }
 
 
@@ -163,7 +231,5 @@ width: calc((100% - 72px) / 4);
 }
 
 @media screen and (max-width: 768px) {
-    .catalog-modal-btn {
-        display: none;
-    }
+   
 } 
