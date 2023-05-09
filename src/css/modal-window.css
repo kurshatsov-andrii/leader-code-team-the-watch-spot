@@ -1,3 +1,8 @@
+.no-scroll {
+    overflow: hidden;
+  }
+
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -96,8 +101,13 @@ color: #141414;
 border: 2px solid rgba(20, 20, 20, 0.5);
 border-radius: 8px;
 }
+.contacts-form-input:focus {
+    border-color: #1E2827;
+}
 
-
+.contacts-form-coments:focus {
+    border-color: #1E2827;
+}
 
 .contacts-form-input:not(:focus):not(:placeholder-shown):invalid {
     border-color: #DE1F2A;
