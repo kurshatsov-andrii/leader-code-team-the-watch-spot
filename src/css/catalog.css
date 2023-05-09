@@ -47,6 +47,10 @@
     .flip-card {
             max-width: 100%;
         }
+    .catalog-list {
+        gap: 40px;
+        }
+
 
     .catalog {
         padding-top: 80px;
@@ -73,32 +77,13 @@
         
         .catalog-link {
             display: block;
-        }
-        
-        .catalog-link:hover .catalog-cover-text,
-        .catalog-link:focus .catalog-cover-text {
-        transform: translate(0);
-        }
+        }        
 
         .catalog-watches {
             position: relative;
             overflow: hidden;
         }
         
-
-        .catalog-cover-text {
-            position: absolute;
-            top: 0;
-            height: 100%;
-            background: #1E2827;
-            border-radius: 8px;
-            padding-top: 40px;
-            padding-bottom: 40px;
-            padding-left: 40px;
-            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);            
-            transform: rotateY(180deg);
-            overflow: auto;
-        }
         
         .catalog-cover-text-title {
             font-weight: 400;
@@ -191,7 +176,7 @@ border: 1px solid #FFFFFF;
         
         .catalog-list {
             display: flex;
-            gap: 83px;
+            gap: 40px;
             justify-content: center;
             flex-wrap: wrap; 
         }
@@ -205,29 +190,10 @@ border: 1px solid #FFFFFF;
             display: block;
         }
         
-        .catalog-link:hover .catalog-cover-text,
-        .catalog-link:focus .catalog-cover-text {
-        transform: translate(0);
-        }
-
         .catalog-watches {
             position: relative;
             overflow: hidden;
-        }
-        
-        .catalog-cover-text {
-            position: absolute;
-            top: 0;
-            height: 100%;
-            background: #1E2827;
-            border-radius: 8px;
-            padding-top: 40px;
-            padding-bottom: 40px;
-            padding-left: 40px;
-            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);            
-            /* transform: translateY(100%);             */
-            transform: rotateY(180deg);
-        }
+        }        
         
         .catalog-cover-text-title {
             font-weight: 400;
@@ -304,29 +270,19 @@ border: 1px solid #FFFFFF;
         }
         
     .catalog-list {
-    gap: 83px 92px;
-    justify-content: left;
-    /* box-sizing: none; */
+    gap: 40px 32px;
+    justify-content: space-between;    
     }
 
     .catalog-item {
     width: calc((100% - 92px) / 2); 
-    }
-
-        .catalog-cover-text {
-            padding-top: 40px;
-            padding-bottom: 40px;
-            padding-left: 40px;
-        }
-
-    
+    }  
 }
-
 
 
 @media screen and (min-width: 1280px) {
 .catalog-list {
-gap: 90px 24px;
+gap: 64px 24px;
 justify-content: center;
 }
 
@@ -342,12 +298,6 @@ width: calc((100% - 72px) / 4);
 .catalog-title-two {
     margin-top: 39px;
 }
-
-        .catalog-cover-text {
-            padding-top: 20px;
-            padding-bottom: 20px;
-            padding-left: 20px;
-        }
 
 .flip-card {
     width: 275px;
