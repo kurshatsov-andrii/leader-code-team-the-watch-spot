@@ -53,8 +53,8 @@
 
 
     .catalog {
-        padding-top: 80px;
-        padding-bottom: 162px;
+        padding-top: 40px;
+        padding-bottom: 82px;
     }
     
         .catalog-title {
@@ -162,8 +162,8 @@ border: 1px solid #FFFFFF;
 
 @media screen and (min-width: 375px){
     .catalog {
-        padding-top: 80px;
-        padding-bottom: 162px;
+        padding-top: 40px;
+        padding-bottom: 130px;
     }
     
         .catalog-title {
@@ -265,7 +265,7 @@ border: 1px solid #FFFFFF;
 
 @media screen and (min-width: 768px) {
     .catalog {
-        padding-top: 128px;
+        padding-top: 64px;
         padding-bottom: 128px;
         }
         
@@ -309,6 +309,12 @@ width: calc((100% - 72px) / 4);
     padding-bottom: 20px;
     padding-left: 20px;
 }
+
+    .catalog {
+        padding-top: 80px;
+        padding-bottom: 128px;
+        }
+
 }
 
 @media screen and (max-width: 1157px) {
