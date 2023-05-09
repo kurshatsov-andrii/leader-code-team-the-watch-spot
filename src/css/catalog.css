@@ -227,13 +227,11 @@ border: 1px solid #FFFFFF;
 
         .catalog-modal-btn {
     background-color:#1E2827;
-    /* display:block; */
     display: flex;
     margin-top: 40px; 
     border-radius: 8px;
     min-width: 122px;
-    height: 50px;
-    border-color: none;
+    height: 50px;    
     font-weight: 400;
     font-size: 12px;
     line-height: 11.7;
