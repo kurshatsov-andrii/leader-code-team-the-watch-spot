@@ -96,3 +96,9 @@
 .burger-menu-link:focus {
   text-decoration: underline;
 }
+
+@media screen and (min-width: 768px) {
+  .burger-menu {
+    display: none;
+  }
+}
