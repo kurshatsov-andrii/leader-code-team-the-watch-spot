@@ -2,6 +2,12 @@
     background-color: var(--color-black);
 }
 
+.section-hero {
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
 .hero-title {
     font-weight: 600;
     font-size: 38px;
@@ -43,12 +49,7 @@
         margin: 7px;        
         }
 
-    /* .swiper-button-icon:hover,
-    .swiper-button-icon:focus
-    {
-        stroke: var(--color-white);
-    } */
-    
+   
     .swiper-buttons{        
         display: flex;
         gap: 12px;  
@@ -132,6 +133,12 @@
 
 /*-------CONTAINER 768px-----------------*/
 @media screen and (min-width: 768px) {
+
+.section-hero {
+        padding: 0;
+        padding-top: 148px;
+        padding-bottom: 80px;
+    }
 
 .hero-title {
     width: 653px;

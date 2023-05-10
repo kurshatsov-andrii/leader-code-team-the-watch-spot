@@ -46,9 +46,12 @@
 }
 
 @media screen and (min-width: 768px) {
+
   .header {
     padding-top: 20px;
     padding-bottom: 16px;
+    position: absolute;
+    width: 100%;      
   }
 
   .header-logo-img {
