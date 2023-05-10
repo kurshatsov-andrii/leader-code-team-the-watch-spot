@@ -2,6 +2,8 @@
   padding-top: 29px;
   padding-bottom: 29px;
   background-color: var(--color-black);
+  position: absolute;
+  width: 100%;
 }
 
 .header-container {
@@ -49,9 +51,7 @@
 
   .header {
     padding-top: 20px;
-    padding-bottom: 16px;
-    position: absolute;
-    width: 100%;      
+    padding-bottom: 16px;    
   }
 
   .header-logo-img {
