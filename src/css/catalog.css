@@ -1,3 +1,9 @@
+
+.catalog-wrap{
+position: relative;
+height: 100px;
+}
+
 .flip-card {
     background-color: transparent;
     width: 336px;
@@ -132,10 +138,9 @@
         }
 
         .catalog-modal-btn {
+            position: absolute;
     background-color:#1E2827;
-    display:block;
-    display: flex;
-    margin-top: 40px; 
+    display:block;        
     border-radius: 8px;
     min-width: 122px;
     height: 50px;
@@ -143,11 +148,10 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
-    align-items: center;
-    cursor: pointer;
+    align-items: center;    
     color: #FFFFFF;
-    padding: 18px 35px 18px;
-    float: right;
+    padding: 18px 35px 18px;    
+    top: 60px;
 }
 
 .catalog-modal-btn:hover,
@@ -242,9 +246,10 @@ border: 1px solid #FFFFFF;
         }
 
         .catalog-modal-btn {
+    position: absolute;
     background-color:#1E2827;
     display: flex;
-    margin-top: 40px; 
+    top: 60px;    
     border-radius: 8px;
     min-width: 122px;
     height: 50px;    
@@ -253,8 +258,7 @@ border: 1px solid #FFFFFF;
     line-height: 11.7;
     align-items: center;
     color: #FFFFFF;
-    padding: 18px 35px 18px;
-    float: right;
+    padding: 18px 35px 18px;    
 }
 
 .catalog-modal-btn:hover,

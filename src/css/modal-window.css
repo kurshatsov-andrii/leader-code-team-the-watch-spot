@@ -11,13 +11,15 @@
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);   
+    
 }
 
 .backdrop.is-hidden {
-    opacity: 0;
+      
+    /* opacity: 0;
     visibility: hidden;
-    pointer-events: none;
+    pointer-events: none; */
   }
 
 .modal-window {
@@ -54,7 +56,7 @@
    
 }
 .modal-window-picture-name {
-    white-space: nowrap;
+    white-space: wrap;
     font-weight: 400;
 font-size: 14px;
 line-height: 1.29;
@@ -159,6 +161,18 @@ letter-spacing: -0.02em;
 
 color: rgba(20, 20, 20, 0.4);
 }
+
+/*begin modal*/
+.modal {   
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal.active {
+    opacity: 1;
+    visibility: visible;    
+}
+/*end modal*/
 
 /*-------CONTAINER < 1280px-----------------*/
 @media screen and (max-width: 1279px){
