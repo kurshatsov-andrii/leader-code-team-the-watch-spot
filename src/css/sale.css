@@ -78,9 +78,9 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.33;
-
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .sale-title-information::before {
   content: '';
