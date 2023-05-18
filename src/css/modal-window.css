@@ -15,12 +15,12 @@
     
 }
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
       
-    /* opacity: 0;
+    opacity: 0;
     visibility: hidden;
-    pointer-events: none; */
-  }
+    pointer-events: none;
+  } */
 
 .modal-window {
     width: 100%;

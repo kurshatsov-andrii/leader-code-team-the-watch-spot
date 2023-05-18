@@ -73,6 +73,7 @@
     letter-spacing: -0.02em;
     color: #1e2827;
     margin-bottom: 40px;
+    padding-top: 40px;
   }
 
   .catalog-list {
@@ -176,6 +177,7 @@
     letter-spacing: -0.02em;
     color: #1e2827;
     margin-bottom: 40px;
+    padding-top: 40px;
   }
 
   .catalog-list {
@@ -296,6 +298,11 @@
   .catalog-modal-btn:focus {
     border: 1px solid #ffffff;
   }
+
+    .catalog-title {
+    padding-top: 20px;
+  }
+
 
   .catalog-title-two {
     margin-top: 39px;

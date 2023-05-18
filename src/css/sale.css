@@ -3,14 +3,14 @@
   padding-bottom: 80px;
   background-color: var(--color-white);
 }
-.container {
-}
+
 .sale-title {
   margin-bottom: 40px;
   font-weight: 600;
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: -0.02em;
+  padding-top: 40px;
 }
 .sale-img-container {
   display: flex;
@@ -23,10 +23,6 @@
   flex-direction: column;
   gap: 10px;
   margin-right: 20px;
-}
-.sale-item {
-}
-.sale-img {
 }
 
 .sale-title-secondary {
@@ -115,8 +111,6 @@
 .sale-text-information {
   letter-spacing: -0.01em;
 }
-.sale-list-info {
-}
 
 /* Accordin --------------------------- */
 .panel {
@@ -164,7 +158,7 @@
 /* desktop----------- */
 @media screen and (min-width: 1280px) {
   .sale {
-    padding-top: 80px;
+    padding-top: 80px; 
     padding-bottom: 160px;
   }
   .sale-wrapper {
@@ -182,6 +176,7 @@
   }
   .sale-title {
     margin-bottom: 80px;
+    padding-top: 10px;
   }
     .sale-text-margin {
       margin-bottom: 20px;
