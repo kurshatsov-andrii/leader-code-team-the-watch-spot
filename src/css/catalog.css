@@ -54,97 +54,97 @@
   transform: rotateY(180deg);
 }
 
-        /* Button animation */
-        .catalog-modal-btn {
-          position: absolute;          
-          display: block;
-          border-radius: 8px;          
-          font-weight: 400;
-          font-size: 12px;
-          /* line-height: 1.17; */
-          align-items: center;
-          color: var(--color-white);
-          top: 60px;
-          width: 108px;
-          height: 42px;
-          background: var(--color-dark-green);
-          line-height: 42px;
-          padding: 0;
-          border: none;
-        }
-    
-        .catalog-modal-btn span {
-          position: relative;
-          display: block;
-          width: 100%;
-          height: 100%;
-          padding-top: 1px;
-        }
-    
-        .catalog-modal-btn:before,
-        .catalog-modal-btn:after {
-          position: absolute;
-          content: "";
-          right: 0;
-          top: 0;
-          background: var(--color-dark-green);
-          transition: all 0.3s ease;
-        }
-    
-        .catalog-modal-btn:before {
-          height: 0%;
-          width: 2px;
-        }
-    
-        .catalog-modal-btn:after {
-          width: 0%;
-          height: 2px;
-        }
-    
-        .catalog-modal-btn:hover {
-          background: transparent;
-          box-shadow: none;
-        }
-    
-        .catalog-modal-btn:hover:before {
-          height: 100%;
-        }
-    
-        .catalog-modal-btn:hover:after {
-          width: 100%;
-        }
-    
-        .catalog-modal-btn span:hover {
-          color: var(--color-dark-green);
-        }
-    
-        .catalog-modal-btn span:before,
-        .catalog-modal-btn span:after {
-          position: absolute;
-          content: "";
-          left: 0;
-          bottom: 0;
-          background: var(--color-dark-green);
-          transition: all 0.3s ease;
-        }
-    
-        .catalog-modal-btn span:before {
-          width: 2px;
-          height: 0%;
-        }
-    
-        .catalog-modal-btn span:after {
-          width: 0%;
-          height: 2px;
-        }
-    
-        .catalog-modal-btn span:hover:before {
-          height: 100%;
-        }
-    
-        .catalog-modal-btn span:hover:after {
-          width: 100%;
-        }
+/* Button animation */
+.catalog-modal-btn {
+  position: absolute;
+  display: block;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  /* line-height: 1.17; */
+  align-items: center;
+  color: var(--color-white);
+  top: 60px;
+  width: 108px;
+  height: 42px;
+  background: var(--color-dark-green);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+
+.catalog-modal-btn span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 1px;
+}
+
+.catalog-modal-btn:before,
+.catalog-modal-btn:after {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 0;
+  background: var(--color-dark-green);
+  transition: all 0.3s ease;
+}
+
+.catalog-modal-btn:before {
+  height: 0%;
+  width: 2px;
+}
+
+.catalog-modal-btn:after {
+  width: 0%;
+  height: 2px;
+}
+
+.catalog-modal-btn:hover {
+  background: transparent;
+  box-shadow: none;
+}
+
+.catalog-modal-btn:hover:before {
+  height: 100%;
+}
+
+.catalog-modal-btn:hover:after {
+  width: 100%;
+}
+
+.catalog-modal-btn span:hover {
+  color: var(--color-dark-green);
+}
+
+.catalog-modal-btn span:before,
+.catalog-modal-btn span:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  background: var(--color-dark-green);
+  transition: all 0.3s ease;
+}
+
+.catalog-modal-btn span:before {
+  width: 2px;
+  height: 0%;
+}
+
+.catalog-modal-btn span:after {
+  width: 0%;
+  height: 2px;
+}
+
+.catalog-modal-btn span:hover:before {
+  height: 100%;
+}
+
+.catalog-modal-btn span:hover:after {
+  width: 100%;
+}
 
 @media screen and (max-width: 374px) {
   .flip-card {
@@ -332,14 +332,13 @@
   }
 
   .catalog-modal-btn {
-      width: 122px;
-      height: 50px;
-    }
+    width: 122px;
+    height: 50px;
+  }
 
-   .catalog-modal-btn span {
-      padding-top: 5px;
-    }
-
+  .catalog-modal-btn span {
+    padding-top: 5px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -352,10 +351,9 @@
     width: calc((100% - 72px) / 4);
   }
 
-    .catalog-title {
+  .catalog-title {
     padding-top: 20px;
   }
-
 
   .catalog-title-two {
     margin-top: 39px;
@@ -383,4 +381,3 @@
     display: none;
   }
 }
-
